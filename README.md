@@ -35,6 +35,9 @@ sudo podman run -d -p 80:8080 --name httpd-app localhost/webapp
 
 ![Screenshot2](images/ScreenshotSecureRoute.png)
 
+### https://open-space-lunar-projekt-template-webapp-git-my-test.apps.cluster-9jsdj.9jsdj.sandbox2238.opentlc.com/
+
+
 ## How to deploy the Website with CLI
 
 ### Create a new application in our project
@@ -46,7 +49,7 @@ oc new-app --name=spaceluna https://github.com/patrickthecreator/open-space-luna
 ### Create route
 
 ```sh
-oc create route edge spaceluna --service=spaceluna
+oc create route edge spacelunar --service=spacelunar
 ```
 
 
