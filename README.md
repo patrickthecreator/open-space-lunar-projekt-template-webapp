@@ -20,3 +20,13 @@ sudo podman images -a
 ```sh
 sudo podman run -d -p 80:8080 --name httpd-app localhost/webapp
 ```
+
+
+## How to deploy the Website with Openshift Web GUI
+- Create a new openshift project
+- Go to developer and go to add page
+- Select From Dockerfile
+- Choose like in the screenshot shown
+![Screenshot1 (https://github.com/patrickthecreator/open-space-lunar-projekt-template-webapp/blob/main/images/ScreenshotImportDockerfile.png?raw=true)]
+- Select Secure Route and configure like in the screenshot and create your Pod
+![Screenshot2 (https://github.com/patrickthecreator/open-space-lunar-projekt-template-webapp/blob/main/images/ScreenshotSecureRoute.png?raw=true)]
