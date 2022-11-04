@@ -34,3 +34,19 @@ sudo podman run -d -p 80:8080 --name httpd-app localhost/webapp
 - Select Secure Route and configure like in the screenshot and create your Pod
 
 ![Screenshot2](images/ScreenshotSecureRoute.png)
+
+## How to deploy the Website with CLI
+
+### Create a new application in our project
+
+```sh
+oc new-app --name=spaceluna https://github.com/patrickthecreator/open-space-lunar-projekt-template-webapp.git
+```
+
+### Create route
+
+```sh
+oc create route edge spaceluna --service=spaceluna
+```
+
+
