@@ -27,6 +27,6 @@ sudo podman run -d -p 80:8080 --name httpd-app localhost/webapp
 - Go to developer and go to add page
 - Select From Dockerfile
 - Choose like in the screenshot shown
-![Screenshot1] (images/ScreenshotImportDockerfile.png)
+![Screenshot1](images/ScreenshotImportDockerfile.png)
 - Select Secure Route and configure like in the screenshot and create your Pod
-![Screenshot2] (images/ScreenshotSecureRoute.png)
+![Screenshot2](images/ScreenshotSecureRoute.png)
