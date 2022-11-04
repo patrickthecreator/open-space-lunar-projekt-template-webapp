@@ -10,6 +10,7 @@ sudo podman build -t webapp .
 ```
 
 ### Now your Image will appear in your local registry
+
 ```sh
 sudo podman images -a
 ```
@@ -26,7 +27,10 @@ sudo podman run -d -p 80:8080 --name httpd-app localhost/webapp
 - Create a new openshift project
 - Go to developer and go to add page
 - Select From Dockerfile
-- Choose like in the screenshot shown
+- Fill the textbox settings like the screenshot shown below
+
 ![Screenshot1](images/ScreenshotImportDockerfile.png)
+
 - Select Secure Route and configure like in the screenshot and create your Pod
+
 ![Screenshot2](images/ScreenshotSecureRoute.png)
